@@ -11,7 +11,7 @@ import org.springframework.test.context.TestPropertySource;
 import java.util.List;
 
 @DataMongoTest
-@TestPropertySource(properties = "spring.mongodb.embedded.version=4.0.2")
+@TestPropertySource(properties = "spring.mongodb.embedded.version=4.0.21")
 class StudentRepositoryTest {
     @Autowired
     private StudentRepository studentRepository;
