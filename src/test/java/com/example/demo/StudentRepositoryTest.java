@@ -20,7 +20,7 @@ import java.util.List;
 class StudentRepositoryTest {
 
     @Container
-    private static final MongoDBContainer mongoDBContainer = new MongoDBContainer("mongo:5.0.14");
+    private static final MongoDBContainer mongoDBContainer = new MongoDBContainer("mongo:latest");
 
     @DynamicPropertySource
     static void mongoProperties(DynamicPropertyRegistry registry) {
